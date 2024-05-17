@@ -1,0 +1,70 @@
+T2534 000:048.236   SEGGER J-Link V7.22b Log File
+T2534 000:076.347   DLL Compiled: Jun 17 2021 17:22:49
+T2534 000:076.364   Logging started @ 2024-03-26 00:46
+T2534 000:076.377 - 76.384ms
+T2534 000:077.211 JLINK_SetWarnOutHandler(...)
+T2534 000:084.713 - 7.514ms
+T2534 000:084.747 JLINK_OpenEx(...)
+T2534 000:101.875   Looking for J-Link GUI Server exe at: D:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T2534 000:102.441   Looking for J-Link GUI Server exe at: \JLinkGUIServer.exe
+T2534 000:404.333   Failed to connect to J-Link GUI Server.
+T2534 014:468.118   TELNET listener socket opened on port 19021
+T2534 014:468.216   WEBSRV Starting webserver
+T2534 014:468.333   WEBSRV Webserver running on local port 19080
+T2534 014:468.345 - 14383.601ms returns "O.K."
+T2534 014:468.368 JLINK_GetEmuCaps()
+T2534 014:468.376 - 0.010ms returns 0x98E61B83
+T2534 014:468.562 JLINK_TIF_GetAvailable(...)
+T2534 014:468.568 - 0.008ms
+T2534 014:468.576 JLINK_SetErrorOutHandler(...)
+T2534 014:468.581 - 0.006ms
+T2534 014:468.788 JLINK_ExecCommand("ProjectFile = "C:\Users\YS\Desktop\RF\maincontrol\Project\RVMDK£¨uv5£©\JLinkSettings.ini"", ...). 
+T2534 014:541.231   Device "ARM7" selected.
+T2534 014:541.520 - 72.736ms returns 0x00
+T2534 014:543.417 JLINK_ExecCommand("Device = STM32F429IG", ...). 
+T2534 014:546.634   Device "STM32F429IG" selected.
+T2534 014:546.893 - 3.470ms returns 0x00
+T2534 014:546.907 JLINK_GetHardwareVersion()
+T2534 014:547.355 - 0.453ms returns 20000
+T2534 014:547.364 JLINK_GetDLLVersion()
+T2534 014:547.368 - 0.006ms returns 72202
+T2534 014:547.374 JLINK_GetOEMString(...)
+T2534 014:547.379 JLINK_GetFirmwareString(...)
+T2534 014:547.385 - 0.008ms
+T2534 014:551.098 JLINK_GetDLLVersion()
+T2534 014:551.108 - 0.012ms returns 72202
+T2534 014:551.114 JLINK_GetCompileDateTime()
+T2534 014:551.118 - 0.006ms
+T2534 014:552.499 JLINK_GetFirmwareString(...)
+T2534 014:552.509 - 0.012ms
+T2534 014:554.257 JLINK_GetHardwareVersion()
+T2534 014:554.267 - 0.012ms returns 20000
+T2534 014:555.429 JLINK_GetSN()
+T2534 014:555.440 - 0.013ms returns 1044913804
+T2534 014:556.650 JLINK_GetOEMString(...)
+T2534 016:079.210 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T2534 016:079.537   
+  ***** Error: 
+T2534 016:079.551   Debugger tries to select target interface JTAG.
+This interface is not supported by the connected emulator.
+Selection will be ignored by the DLL.
+T2534 016:079.558 - 0.350ms returns 0x01
+T2534 016:082.516 JLINK_HasError()
+T2534 016:082.539 JLINK_SetSpeed(5000)
+T2534 016:082.549 - 0.012ms
+T2534 016:082.555 JLINK_GetId()
+T2534 016:086.524   InitTarget() start
+T2534 016:086.540    J-Link Script File: Executing InitTarget()
+T2534 016:903.626   Can not attach to CPU. Trying connect under reset.
+T2534 017:076.664   Connecting to CPU via connect under reset failed.
+T2534 017:135.612   InitTarget() end
+T2534 017:204.568   InitTarget() start
+T2534 017:204.645    J-Link Script File: Executing InitTarget()
+T2534 017:330.175   Can not attach to CPU. Trying connect under reset.
+T2534 017:505.176   Connecting to CPU via connect under reset failed.
+T2534 017:560.028   InitTarget() end
+T2534 017:560.051 - 1477.498ms returns 0x00000000
+T2534 019:163.728 JLINK_Close()
+T2534 019:181.521 - 17.808ms
+T2534 019:181.539   
+T2534 019:181.559   Closed
